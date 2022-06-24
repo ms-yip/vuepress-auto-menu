@@ -1,0 +1,11 @@
+env: // 支持es6全局变量
+  es6: true
+  browser: true
+extends: eslint:recommended // 使用eslint 默认规则
+parserOptions:  
+  ecmaVersion: 2019  // 支持es6语法校验
+  sourceType: module // 使用es6模块语法
+rules:  // 自定义规则配置
+  indent: 
+    - error
+    - 2

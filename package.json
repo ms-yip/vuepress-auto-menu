@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-menu",
+  "version": "1.0.0",
+  "description": "A tool that automatically reads file directories to generate sidebar and nav config data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ms.yip",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/plugin-transform-runtime": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "eslint": "^8.17.0"
+  }
+}
